@@ -5,10 +5,8 @@ namespace blazor_web
 {
     #line hidden
     using System;
-    using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
 #nullable restore
 #line 1 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
 using System.Net.Http;
@@ -25,49 +23,77 @@ using System.Net.Http.Json;
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
-using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
-using Microsoft.AspNetCore.Components.Routing;
+using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
-using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 6 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
-using Microsoft.AspNetCore.Components.WebAssembly.Http;
+using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 7 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
-using blazor_web;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
+using blazor_web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
 using blazor_web.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
+using blazor_web.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
+using blazor_web.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Users\Chris\Documents\SCHOOLYEAR2\Semester2\SpecialTopics\BlazorLesson\CompletedFiles\blazor-web\_Imports.razor"
+using System.Collections.Generic;
 
 #line default
 #line hidden

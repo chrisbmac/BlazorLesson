@@ -1,0 +1,8 @@
+
+<p class="text-warning">Click Counter: @((MarkupString) (clickCnt != 0 ? $"<strong>{clickCnt} Clicks</strong>" : "No Clicks Yet"))</p>
+
+@code {
+
+    [Parameter]
+    public int clickCnt {get;set;}
+}

@@ -1,16 +1,42 @@
-﻿@page "/counter"
+@page "/counter/{currentCount:int}"
 
-<h1>Counter</h1>
+<Header></Header>
 
-<p>Current count: @currentCount</p>
+<ClickCounter clickCnt = "@clickCnt"></ClickCounter>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<p class="text-info">Current count: <strong>@currentCount</strong></p>
+
+<Decrease @ref="childDec"></Decrease>
+<Increase @ref="childInc"></Increase>
+<Reset @ref="childRes"></Reset>
+
+<button class="btn btn-success" @onclick="increase">Increase</button>
+<button class="btn btn-secondary" @onclick="decrease">Decrease</button>
+<button class="btn btn-danger" @onclick="reset">Reset</button>
 
 @code {
-    private int currentCount = 0;
+    
+    Increase childInc;
+    Decrease childDec;
+    Reset childRes;
 
-    private void IncrementCount()
-    {
-        currentCount++;
+    [Parameter]
+    public int currentCount {get;set;}
+
+    public int clickCnt;
+
+    void increase() {
+        clickCnt++;
+        currentCount = childInc.IncrementCount(currentCount); 
     }
+    
+    void decrease() {
+        clickCnt++;
+        currentCount = childDec.decreaseCount(currentCount); 
+    }
+
+    void reset() {
+        currentCount = clickCnt = childRes.reset();
+    }
+
 }

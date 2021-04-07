@@ -36,6 +36,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Blazor-state": {
+              "target": "Package",
+              "version": "[3.4.4, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.1, )"
